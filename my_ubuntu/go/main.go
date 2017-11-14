@@ -6,5 +6,5 @@ import (
 
 func main() {
 	fmt.Println("Hello World")
-	fmt.Println("Hello Shanghai, Pudong, Chuansha, FAFA")
+	fmt.Println("Hello Shanghai, Pudong, Chuansha, FAFAF")
 }
