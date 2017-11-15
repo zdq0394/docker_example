@@ -1,2 +1,2 @@
 FROM alpine:3.4
-ENTRYPOINT ["echo", "Hello"]
+ENTRYPOINT ["echo", "Hello develop"]
