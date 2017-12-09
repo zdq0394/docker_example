@@ -1,2 +1,3 @@
-FROM alpine:3.4
-ENTRYPOINT ["echo", "Hello Shanghai master master"]
+FROM golang as goexample
+RUN echo "golang"
+COPY /Users/zhangdongqi/gopath/src/github.com/zdq0394/dockerpull-py/Makefile /data/Makefile
