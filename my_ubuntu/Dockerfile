@@ -1,3 +1,4 @@
-FROM golang as goexample
-RUN echo "golang"
-COPY /Users/zhangdongqi/gopath/src/github.com/zdq0394/dockerpull-py/Makefile /data/Makefile
+FROM busybox
+RUN mkdir /myvol
+RUN echo "Hello World" > /myvol/greeting
+VOLUME /myvol
